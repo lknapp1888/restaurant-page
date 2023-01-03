@@ -1,3 +1,4 @@
 import './style.css';
+import loadMain from './printMain.js';
 
-const element = document.querySelector('.content-container');
+loadMain();
