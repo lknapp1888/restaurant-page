@@ -79,11 +79,16 @@ header button {
   background-color: var(--secondary-background-color);
 }
 
-.content-container p, .content-container h1, .content-container img {
+.content-container p, .content-container h1 {
     width: 80%;
     padding: 10px;
     color: #0369a1;
     font-family: 'MyFont';
+}
+
+.content-container img {
+  width: 45%;
+  padding: 10px;
 }
 
 h2 {
