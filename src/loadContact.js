@@ -38,6 +38,7 @@ export default function loadContact() {
   const enquiryContainer = document.createElement('div');
   enquiryContainer.classList.add('form-item-container');
   const enquiry = document.createElement('textarea');
+  enquiry.placeholder = 'This is a dummy website. Do not attempt to submit real information';
   const enquiryLabel = document.createElement('label');
   enquiryLabel.textContent = 'Enquiry*';
 
