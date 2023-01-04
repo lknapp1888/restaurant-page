@@ -2,6 +2,9 @@ import burgerImage from './burger.jpg';
 
 export default function loadMain() {
   const element = document.querySelector('.content-container');
+  while (element.firstChild) {
+    element.removeChild(element.lastChild);
+  }
 
   // Add the image to our existing div.
   const burgerImg = new Image();
